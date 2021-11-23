@@ -1,5 +1,7 @@
 import React from 'react'
-import MemoHook from './components/memos/memoHook'
+// import CallbackHook from './components/memos/CallbackHook'
+import { Father } from './components/memos/testMemorize/Father'
+// import MemoHook from './components/memos/memoHook'
 // import Memorize from './components/memos/Memorize'
 // import { ExampleUseRef } from './components/useRef/ExampleUseRef'
 // import { MultipleCustomHooks } from './components/usingUseFetch/MultipleCustomHooks'
@@ -18,7 +20,9 @@ export const HooksApp = () => {
             {/* <MultipleCustomHooks /> */}
             {/* <ExampleUseRef /> */}
             {/* <Memorize /> */}
-            <MemoHook />
+            {/* <MemoHook /> */}
+            {/* <CallbackHook /> */}
+            <Father />
         </div>
     )
 }
