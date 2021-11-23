@@ -1,5 +1,7 @@
 import React from 'react'
-import { ExampleUseRef } from './components/useRef/ExampleUseRef'
+import MemoHook from './components/memos/memoHook'
+// import Memorize from './components/memos/Memorize'
+// import { ExampleUseRef } from './components/useRef/ExampleUseRef'
 // import { MultipleCustomHooks } from './components/usingUseFetch/MultipleCustomHooks'
 // import { CounterWithCustomHooks } from './useState/CounterWithCustomHooks'
 // import { SimpleForm } from './useEffect/simpleForm'
@@ -14,7 +16,9 @@ export const HooksApp = () => {
             {/* <SimpleForm/> */}
             {/* <FormWithCustomHooks /> */}
             {/* <MultipleCustomHooks /> */}
-            <ExampleUseRef />
+            {/* <ExampleUseRef /> */}
+            {/* <Memorize /> */}
+            <MemoHook />
         </div>
     )
 }
